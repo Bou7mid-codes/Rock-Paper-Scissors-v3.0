@@ -1,6 +1,5 @@
 let choice = '';    // choice variable has to be declared here to be used as a global variable
 
-:
 function result(){
   function cpuTurn(){
     const randomNumber = Math.floor(Math.random()*100);
