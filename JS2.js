@@ -1,6 +1,6 @@
 let choice = '';    // choice variable has to be declared here to be used as a global variable
 
-// announcement Variables:
+:
 function result(){
   function cpuTurn(){
     const randomNumber = Math.floor(Math.random()*100);
@@ -15,6 +15,7 @@ function result(){
   }
   let cpuChoice = cpuTurn();
 
+    // announcement Variables
   let annWin = `You chose ${choice}, and Computer chose ${cpuChoice}, you win!`;
   let annLose = `You chose ${choice}, and and Computer chose ${cpuChoice}, you lose!`;
   let annTie = `You chose ${choice}, and and Computer chose ${cpuChoice} , it\'s a tie!`;
